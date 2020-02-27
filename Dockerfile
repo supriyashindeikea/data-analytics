@@ -6,3 +6,5 @@ RUN pip install pandas seaborn jupyter-offlinenotebook
 RUN rm -rf ./work
 
 COPY --chown=1000:100 . .
+
+pip install bs4
